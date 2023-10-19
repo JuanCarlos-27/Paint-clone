@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint Layout</title>
+    <link rel="shortcut icon" type="image/png" href="img/paint-icon.webp">
+
+    <!-- Fontawesome library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="window">
+      <header class="window__header">
+        <p class="window__header--title">
+          <img class="paint-logo" src="./img/paint-icon.webp" alt="Logo paint 1998">
+          <span>Untitled - Paint</span>
+        </p>
+        <div class="window__header--buttons">
+          <button><i class="fa-solid fa-window-minimize"></i></button>
+          <button><i class="fa-regular fa-window-maximize"></i></button>
+          <button><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </header>
+      
+      <nav class="window__options">
+        <ul class="window__options--ul">
+          <li><a href="#"><span>F</span>ile</a></li>
+          <li><a href="#"><span>E</span>dit</a></li>
+          <li><a href="#"><span>V</span>iew</a></li>
+          <li><a href="#"><span>I</span>mage</a></li>
+          <li><a href="#"><span>O</span>ptions</a></li>
+          <li><a href="#"><span>H</span>elp</a></li>
+        </ul>
+      </nav>
+
+      <aside class="window__tools--container">
+        <div class="window__tools--child">
+          <button><i class="fa-solid fa-draw-polygon"></i></button>
+          <button><i class="fa-solid fa-vector-square"></i></button>
+          <button><i class="fa-solid fa-eraser"></i></button>
+          <button><i class="fa-solid fa-fill-drip"></i></button>
+          <button><i class="fa-solid fa-eye-dropper"></i></button>
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-pencil"></i></button>
+          <button><i class="fa-solid fa-brush"></i></button>
+          <button><i class="fa-solid fa-spray-can"></i></button>
+          <button><i class="fa-brands fa-amilia"></i></button>
+          <button><i class="fa-solid fa-minus"></i></button>
+          <button><i class="fa-solid fa-bezier-curve"></i></button>
+          <button><i class="fa-regular fa-square"></i></button>
+          <button><i class="fa-solid fa-draw-polygon"></i></button>
+          <button><i class="fa-regular fa-circle"></i></button>
+          <button><i class="fa-regular fa-square"></i></button>
+        </div>
+      </aside>
+      
+      <section class="window__canvas"></section>
+
+      <section class="window__color--container">
+        <article class="colors-selected-container">
+          <div style="background-color: #000000;"></div>
+          <div style="background-color: #FFFFFF;"></div>
+        </article>
+        <article class="colors-container">
+          <div style="background-color: #000000;"></div>
+          <div style="background-color: #807D7C;"></div>
+          <div style="background-color: #810002;"></div>
+          <div style="background-color: #7D8027;"></div>
+          <div style="background-color: #008226;"></div>
+          <div style="background-color: #00867E;"></div>
+          <div style="background-color: #070175;"></div>
+          <div style="background-color: #7C0176;"></div>
+          <div style="background-color: #85824C;"></div>
+          <div style="background-color: #004140;"></div>
+          <div style="background-color: #0085F2;"></div>
+          <div style="background-color: #003E7C;"></div>
+          <div style="background-color: #4818E1;"></div>
+          <div style="background-color: #854217;"></div>
+          <div style="background-color: #FFFFFF;"></div>
+          <div style="background-color: #C0C0C2 ;"></div>
+          <div style="background-color: #FA0019;"></div>
+          <div style="background-color: #F8FC53;"></div>
+          <div style="background-color: #01FC50;"></div>
+          <div style="background-color: #00FEFC;"></div>
+          <div style="background-color: #1F18F1;"></div>
+          <div style="background-color: #FF0EF5;"></div>
+          <div style="background-color: #FCFA91;"></div>
+          <div style="background-color: #00FC8D;"></div>
+          <div style="background-color: #7DF6F7;"></div>
+          <div style="background-color: #7E7DF5;"></div>
+          <div style="background-color: #FA0076;"></div>
+          <div style="background-color: #FF8354;"></div>
+        </article>
+      </section>
+
+      <footer class="window__info">
+        <p>Inserts text into the picture</p>
+        <p>1165,110</p>
+        <p>2021</p>
+      </footer>
+    </main>
+  </body>
+</html>
